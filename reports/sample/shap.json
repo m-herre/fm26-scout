@@ -1,0 +1,48 @@
+{
+  "save": "sample",
+  "target": "potential_ability",
+  "players": 20,
+  "fit_seconds": 2.2,
+  "budget": 2048,
+  "ref_budget": 8192,
+  "methods": {
+    "shap_peer": {
+      "why_overlap_of_4": 3.15,
+      "same_top_reason": 0.9,
+      "spearman": 0.915,
+      "sign_agree_ref_top4": 1.0,
+      "seconds_per_player": 0.15,
+      "rows_per_player": 2048,
+      "deletion_move": 5.98,
+      "completeness_error": 0.0
+    },
+    "shap_inf": {
+      "why_overlap_of_4": 1.6,
+      "same_top_reason": 0.3,
+      "spearman": 0.417,
+      "sign_agree_ref_top4": 0.863,
+      "seconds_per_player": 0.21,
+      "rows_per_player": 2048,
+      "deletion_move": 3.57,
+      "completeness_error": 6.04
+    },
+    "reference_1": {
+      "why_overlap_of_4": 4.0,
+      "same_top_reason": 1.0,
+      "spearman": 0.98,
+      "sign_agree_ref_top4": 1.0,
+      "seconds_per_player": 0.35,
+      "rows_per_player": 8192,
+      "completeness_error": 0.0
+    },
+    "reference_0": {
+      "deletion_move": 5.8
+    }
+  },
+  "mean_gap_to_peers": 51.04,
+  "api": {
+    "calls": 21,
+    "rows": 404449,
+    "seconds": 222.5
+  }
+}

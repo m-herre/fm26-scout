@@ -1,0 +1,30 @@
+*.fm
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.coverage
+htmlcov/
+*.py[cod]
+data/
+runs/
+config.toml
+.DS_Store
+.pytest-tmp/
+reports/*
+!reports/sample/
+reports/sample/searches/
+reports/sample/predictions/
+.claude/
+FM26 Scout Agent mockup*/
+# per-target fits of the sample; only the CDFs of the 7 targets the engine exposes are kept
+sample/db/*
+!sample/db/potential_ability_*.npy
+!sample/db/current_ability_*.npy
+!sample/db/consistency_*.npy
+!sample/db/versatility_*.npy
+!sample/db/professionalism_*.npy
+!sample/db/ambition_*.npy
+!sample/db/market_value_*.npy

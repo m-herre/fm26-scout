@@ -1,0 +1,151 @@
+[
+ {
+  "prompt": "The next wonderkid CM, max 20M",
+  "answer": {
+   "reply": "Looking for a central midfielder aged 21 or under, priced at 20M or less, whose estimated ceiling is top-level and who has a real chance of actually getting there \u2014 ranked by that chance. Value is the save's price where known, otherwise the model's own estimate.",
+   "questions": [],
+   "reading": [
+    [
+     "wonderkid",
+     "a young player whose estimated potential is already elite (160+/200) with a solid chance of reaching it"
+    ],
+    [
+     "max 20M",
+     "price no higher than 20,000,000"
+    ]
+   ],
+   "spec": {
+    "filters": {
+     "age": [
+      null,
+      21
+     ],
+     "value": [
+      null,
+      20000000
+     ],
+     "position": [
+      "MC"
+     ]
+    },
+    "chance": {
+     "target": "potential_ability",
+     "at_least": 160,
+     "min": 0.4
+    },
+    "rank": {
+     "chance": 1
+    },
+    "limit": 10
+   },
+   "open_player": null
+  }
+ },
+ {
+  "prompt": "Undervalued strikers in their prime",
+  "answer": {
+   "reply": "Looking for strikers aged 24-30 whose estimated worth is well above their price, ranked by how good they are now. That combination is what makes them genuinely undervalued rather than just cheap.",
+   "questions": [],
+   "reading": [
+    [
+     "undervalued",
+     "worth noticeably more than his price tag"
+    ],
+    [
+     "in their prime",
+     "roughly 24 to 30 years old"
+    ]
+   ],
+   "spec": {
+    "filters": {
+     "position": [
+      "STC"
+     ],
+     "age": [
+      24,
+      30
+     ],
+     "value_gap": [
+      0.5,
+      null
+     ]
+    },
+    "rank": {
+     "value_gap": 0.5,
+     "pred_current_ability": 0.5
+    },
+    "limit": 10
+   },
+   "open_player": null
+  }
+ },
+ {
+  "prompt": "A safe centre-back under 23 who is ready now",
+  "answer": {
+   "reply": "A centre-back aged 23 or under who can step straight in, with the engine favouring solid, low-risk estimates over boom-or-bust profiles. I've put the emphasis on what he can do right now rather than what he might become.",
+   "questions": [],
+   "reading": [
+    [
+     "safe",
+     "reliable, well-evidenced estimates rather than a wide boom-or-bust range"
+    ],
+    [
+     "ready now",
+     "judged on current ability, someone who can play first-team football immediately"
+    ]
+   ],
+   "spec": {
+    "filters": {
+     "position": [
+      "DC"
+     ],
+     "age": [
+      null,
+      23
+     ]
+    },
+    "rank": {
+     "pred_current_ability": 1
+    },
+    "risk": 0.5,
+    "limit": 10
+   },
+   "open_player": null
+  }
+ },
+ {
+  "prompt": "Left-footed wingers under 19 with the biggest upside",
+  "answer": {
+   "reply": "Left-sided wide men under 19, left foot only, sorted by how high their ceiling looks. I'm treating \"biggest upside\" as estimated potential ability rather than current level.",
+   "questions": [],
+   "reading": [
+    [
+     "biggest upside",
+     "highest estimated potential ability, not what they can do today"
+    ]
+   ],
+   "spec": {
+    "filters": {
+     "position": [
+      "AML",
+      "AMR"
+     ],
+     "age": [
+      null,
+      18
+     ],
+     "left_foot": [
+      "Strong",
+      "Very Strong"
+     ]
+    },
+    "rank": {
+     "pred_potential_ability": 1.0
+    },
+    "limit": 10,
+    "explain": "potential_ability"
+   },
+   "open_player": null
+  }
+ }
+]

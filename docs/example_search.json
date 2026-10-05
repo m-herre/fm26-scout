@@ -1,0 +1,3 @@
+{"filters": {"age": [null, 20], "position": ["STC"], "value": [null, 8000000]},
+ "rank": {"pred_potential_ability": 0.7, "pace": 0.15, "acceleration": 0.15},
+ "risk": 0.2, "limit": 5}

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 244" width="960" height="244" role="img" aria-label="Held-out error per model: TabPFN-3.5 lowest on potential ability, current ability and market value">
+<title>Held-out error per model: TabPFN-3.5 lowest on potential ability, current ability and market value</title>
+<style>
+  .bg{fill:#fcfcfb} .ink{fill:#0b0b0b} .ink2{fill:#52514e} .muted{fill:#898781}
+  .hero{fill:#2a78d6} .rest{fill:#b4b2a9} .grid{stroke:#e1e0d9} .axis{stroke:#c3c2b7}
+  .ref{stroke:#c3c2b7} .line{stroke:#2a78d6} .ring{stroke:#fcfcfb}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#1a1a19} .ink{fill:#ffffff} .ink2{fill:#c3c2b7} .hero{fill:#3987e5}
+    .rest{fill:#4a4945} .grid{stroke:#2c2c2a} .axis{stroke:#383835} .ref{stroke:#5c5b56}
+    .line{stroke:#3987e5} .ring{stroke:#1a1a19}
+  }
+  text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+</style>
+<rect class="bg" width="960" height="244" rx="8"/>
+<text class="ink" x="24" y="34" font-size="18" font-weight="600">Error on 10,041 players no model saw (lower is better)</text>
+<text class="ink2" x="24" y="56" font-size="13">Same 10,000 training players for every model · no tuning for TabPFN-3.5</text>
+<text class="ink" x="24" y="78" font-size="14" font-weight="600">Potential ability</text>
+<text class="ink2" x="24" y="107" font-size="12" font-weight="600">TabPFN-3.5</text>
+<path class="hero" d="M120,92 h104.35858858143537 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h-104.35858858143537 z"/>
+<text class="ink" x="232.35858858143536" y="107" font-size="12" font-weight="600">8.5</text>
+<text class="ink2" x="24" y="139" font-size="12">CatBoost</text>
+<path class="rest" d="M120,124 h118.25849996817733 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h-118.25849996817733 z"/>
+<text class="ink" x="246.25849996817732" y="139" font-size="12">9.6</text>
+<text class="ink2" x="24" y="171" font-size="12">Random forest</text>
+<path class="rest" d="M120,156 h123.30157534698385 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h-123.30157534698385 z"/>
+<text class="ink" x="251.30157534698384" y="171" font-size="12">10.0</text>
+<text class="ink2" x="24" y="203" font-size="12">Ridge</text>
+<path class="rest" d="M120,188 h146.0 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h-146.0 z"/>
+<text class="ink" x="274.0" y="203" font-size="12">11.7</text>
+<line class="axis" x1="120" y1="88" x2="120" y2="214" stroke-width="1"/>
+<text class="ink" x="336" y="78" font-size="14" font-weight="600">Current ability</text>
+<text class="ink2" x="336" y="107" font-size="12" font-weight="600">TabPFN-3.5</text>
+<path class="hero" d="M432,92 h81.12094536994552 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h-81.12094536994552 z"/>
+<text class="ink" x="521.1209453699455" y="107" font-size="12" font-weight="600">2.81</text>
+<text class="ink2" x="336" y="139" font-size="12">CatBoost</text>
+<path class="rest" d="M432,124 h87.1067222141544 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h-87.1067222141544 z"/>
+<text class="ink" x="527.1067222141544" y="139" font-size="12">3.01</text>
+<text class="ink2" x="336" y="171" font-size="12">Random forest</text>
+<path class="rest" d="M432,156 h146.0 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h-146.0 z"/>
+<text class="ink" x="586.0" y="171" font-size="12">4.96</text>
+<text class="ink2" x="336" y="203" font-size="12">Ridge</text>
+<path class="rest" d="M432,188 h119.55961977771231 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h-119.55961977771231 z"/>
+<text class="ink" x="559.5596197777123" y="203" font-size="12">4.09</text>
+<line class="axis" x1="432" y1="88" x2="432" y2="214" stroke-width="1"/>
+<text class="ink" x="648" y="78" font-size="14" font-weight="600">Market value (log)</text>
+<text class="ink2" x="648" y="107" font-size="12" font-weight="600">TabPFN-3.5</text>
+<path class="hero" d="M744,92 h96.65871753416607 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h-96.65871753416607 z"/>
+<text class="ink" x="848.658717534166" y="107" font-size="12" font-weight="600">0.48</text>
+<text class="ink2" x="648" y="139" font-size="12">CatBoost</text>
+<path class="rest" d="M744,124 h115.31484813946794 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h-115.31484813946794 z"/>
+<text class="ink" x="867.3148481394679" y="139" font-size="12">0.57</text>
+<text class="ink2" x="648" y="171" font-size="12">Random forest</text>
+<path class="rest" d="M744,156 h137.3299789578553 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h-137.3299789578553 z"/>
+<text class="ink" x="889.3299789578552" y="171" font-size="12">0.67</text>
+<text class="ink2" x="648" y="203" font-size="12">Ridge</text>
+<path class="rest" d="M744,188 h146.0 a4,4 0 0 1 4,4 v14 a4,4 0 0 1 -4,4 h-146.0 z"/>
+<text class="ink" x="898.0" y="203" font-size="12">0.71</text>
+<line class="axis" x1="744" y1="88" x2="744" y2="214" stroke-width="1"/>
+</svg>

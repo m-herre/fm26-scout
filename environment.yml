@@ -1,0 +1,9 @@
+name: fm26-scout
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip>=24
+  - llvm-openmp  # OpenMP for LightGBM (SHAP approximator) on macOS
+  - pip:
+      - -e .[local,dev,bench]
